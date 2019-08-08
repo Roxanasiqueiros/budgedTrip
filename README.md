@@ -1,1 +1,1 @@
-# budgedTrip
+# budgetTrip
