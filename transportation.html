@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <script src="assets/js/transportation.js"></script>
+    
+    <title>Budget Trip</title>
+</head>
+<body>
+    <img src="assets/images/logo.jpeg">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Travel on Budget</h1>
+                  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+              </div>
+
+                     <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="transportation.html">How To Get Around</a>
+                     </li>
+                   
+                  </ul> 
+
+                  <input type="text" id="from" placeholder="Enter starting point"/> <button id="my-location">Use my location</button>
+  <input type="text" id="to" placeholder="Enter destination" />
+  <button id="plan">Plan Trip</button>
+
+  <div id="map" style="width: 100%; height: 530px;"></div>
+</body> 
+</html>
