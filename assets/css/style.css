@@ -1,0 +1,28 @@
+.logo {
+    width: 100%;
+}
+.jumbotron {
+    background: #000;
+    padding: 50px 0;
+}
+.display {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.lead {
+    color: #aaa;
+    text-align: center;
+    font-family: cursive;
+}
+.slide-images {
+    height: 600px;
+    overflow: hidden;
+}
+.slide-images img {
+    width: 100%;
+}
+.bottom-wrap {
+    padding: 50px 0;
+    font    
+}
