@@ -7,14 +7,20 @@ $(document).ready(function () {
     // navigator.geolocation.getCurrentPosition((loc) => userLoc = loc);
 
 
-    function addressToCoords(address) {
-        const url = "http://open.mapquestapi.com/geocoding/v1/address?location=" + address + "&key=" + GAPI_KEY;
-        console.log(url);
-        $.getJSON(url, function (coords) {
+    function coordsToAdress(coords) {
+        const url =`https://www.mapquestapi.com/geocoding/v1/reverse?key=${GAPI_KEY}&location=${coords.coords.latitude},${coords.coords.longitude}`;
+        console.log(coords);
+        $.getJSON(url, function (response) {
+            const addressObject = response.results[0].locations[0];
+            const address = `${addressObject.street}, ${addressObject.adminArea5}, ${addressObject.adminArea3}`
+            $("#from").val(address);
             console.log(coords);
             });
     }
-
+    $("#my-location").click(function (event) {
+        event.preventDefault();
+        navigator.geolocation.getCurrentPosition(coordsToAdress);
+    })
 
     $("#plan").click(function (event) {
         event.preventDefault();
