@@ -12,15 +12,15 @@ $(document).ready(function(){
       });
 });
 
-//rotate those testimonials
-var arr = ["testimonial0", "testimonial1", "testimonial2", "testimonial3", "testimonial4", "testimonial5", "testimonial6", "testimonial7", "testimonial8", "testimonial9"],
-i = Math.floor(Math.random() * arr.length)+1;
+	//rotate those testimonials
+  var arr = ["testimonial0", "testimonial1", "testimonial2", "testimonial3", "testimonial4"],
+	i = Math.floor(Math.random() * arr.length)+1;
 
-$('.buttom-wrap'+ i).show();
+$('#testimonial'+ i).show();
 
 //slowly fade the testimonial in and out
 setInterval (function () {
-$(".bottom-wrap" + i).fadeOut("slow");
-i = (i+1)%(arr.length);
-$(".bottom-wrap" + i).delay(1000).fadeIn("slow");
-}, 12000);
+	$("#testimonial" + i).fadeOut("slow");
+	i = (i+1)%(arr.length);
+	$("#testimonial" + i).delay(1000).fadeIn("slow");
+}, 3000);
