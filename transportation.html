@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
-    <script src="assets/js/transportation.js"></script>
-    <link href="assets/css/transportation.css" rel="stylesheet">
-    
-    <title>Budget Trip</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
+  <script src="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.css" />
+  <script src="assets/js/transportation.js"></script>
+  <link href="assets/css/transportation.css" rel="stylesheet">
+
+  <title>Budget Trip</title>
 </head>
+
 <body>
+
   <div class="jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-            <img class="logo" src="assets/images/logo.jpeg">
+          <img class="logo" src="assets/images/logo.jpeg" alt="logo" class="responsive" >
         </div>
         <div class="col-md-10">
-            <h1 class="display">Travel on Budget</h1>
-            <p class="lead">"To Travel is to Live"-Hans Christian Andersen </p>
+          <h1 class="display">Travel on Budget</h1>
+          <p class="lead">"You don't have to be rich to travel well" -Eugene Fodor </p>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
 
-                     <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">Activities</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Restaurants</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Hotels</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="transportation.html">How To Get Around</a>
-                     </li>
-                   
-                  </ul> 
+  <div class="tab">
 
-                  <input type="text" id="from" placeholder="Enter starting point"/> <button id="my-location">Use my location</button>
-  <input type="text" id="to" placeholder="Enter destination" />
-  <button id="plan">Plan Trip</button>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link " href="#">Home</a>
+          </li>
 
-  <div id="map" style="width: 100%; height: 530px;"></div>
-</body> 
+      <li class="nav-item">
+        <a class="nav-link " href="#">Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hotels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="transportation.html">How To Get Around</a>
+      </li>
+
+    </ul>
+
+    <input type="text" id="from" placeholder="Enter starting point" /> <button id="my-location">Use my location</button>
+    <input type="text" id="to" placeholder="Enter destination" />
+    <button id="plan">Plan Trip</button>
+
+    </div>
+
+
+    <div class="bg-img"  src="https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5834884780001_5834880990001-vs.jpg?pubId=5104226627001&videoId=5834880990001" alt="Nature" class="responsive">
+
+
+    <div id="map" style="width: 100%; height: 530px;  background-size: cover;"></div>
+    
+  </div>
+
+
+
+
+</body>
+
 </html>

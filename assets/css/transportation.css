@@ -9,11 +9,14 @@
     color: #fff;
     text-align: center;
     font-size: 50px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    
+
 }
 .lead {
-    color: #aaa;
+    color: whitesmoke;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Tangerine', cursive;
 }
 .slide-images {
     height: 600px;
@@ -23,6 +26,50 @@
     width: 100%;
 }
 .bottom-wrap {
-    padding: 50px 0;
-    font    
+    padding: 50px 0; 
 }
+
+.bg-img {
+    background-image: url("https://mk0greenvacatiodxvgo.kinstacdn.com/wp-content/uploads/2019/06/San-Francisco-budget-travel-tips-hotels.jpg");
+  
+    min-height: 380px;
+  
+    background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  background-position: center; 
+  background-size: cover;
+
+    position: relative;
+  
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+.jumbotron{
+    background-image: url(https://i0.wp.com/foodandtravelmagazine.com/wp-content/uploads/2016/02/blue-mountains-websites-header-background-bw.jpg?fit=1920%2C416&ssl=1);
+    background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+margin-bottom: 0%;
+
+}
+.tab{
+  /* background-image: url(https://cdn.pixabay.com/photo/2016/11/10/19/20/banner-1814989__340.jpg);   */
+    border-bottom: solid;
+    border-style: solid;
+border-width: 3px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom; 
+}
+.nav-link{
+    font-family: 'Libre Caslon Display', serif;
+    color: #000;
+     font-size: 20px;
+     font-weight: 900;
+}
+
+
