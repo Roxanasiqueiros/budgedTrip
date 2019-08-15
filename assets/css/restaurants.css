@@ -1,5 +1,5 @@
-
 .logo {
+
     width: 100%;
 }
 .jumbotron {
@@ -62,4 +62,7 @@ font-weight: 900;
     padding: 25px;
     color: white;
     font-family: 'Domine', serif;
+}
+.footer {
+    text-align: center;
 }
