@@ -5,6 +5,9 @@
     background: #000;
     padding: 50px 0;
 }
+.nav-item{
+	padding: 0 5px;
+}
 .display {
     color: #fff;
     text-align: center;
