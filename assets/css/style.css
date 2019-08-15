@@ -5,6 +5,9 @@
     background: #000;
     padding: 50px 0;
 }
+.nav-item{
+	padding: 0 5px;
+}
 .display {
     color: #fff;
     text-align: center;
@@ -34,6 +37,17 @@
 	margin: 20px auto;
 	color: #eee;
 	text-transform: uppercase;
+}
+
+.col-md-4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.col-md-4 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-display: underline;
 }
 .testimonials img,
 .testimonials .profile {
@@ -85,4 +99,10 @@
 	border-width: 10px;
 	border-top: 20px solid #596676;
 	border-right: 20px solid transparent;
+
+}
+.openweathermap-widget-13{
+	position: absolute;
+	top:0;
+	right: 0;
 }
