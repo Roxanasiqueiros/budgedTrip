@@ -38,6 +38,17 @@
 	color: #eee;
 	text-transform: uppercase;
 }
+
+.col-md-4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.col-md-4 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-display: underline;
+}
 .testimonials img,
 .testimonials .profile {
 	display: block;
@@ -88,6 +99,7 @@
 	border-width: 10px;
 	border-top: 20px solid #596676;
 	border-right: 20px solid transparent;
+
 }
 .openweathermap-widget-13{
 	position: absolute;
