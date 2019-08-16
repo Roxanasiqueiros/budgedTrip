@@ -18,10 +18,12 @@
   
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
-.sf-container {
+.sf-container, 
+.tahoe-container,
+.la-container {
   padding: 64px;
 }
 
@@ -48,11 +50,11 @@
   }
   
   .large-font {
-    font-size: 36px;
+    font-size: 30px;
   }
   
   .xlarge-font {
-    font-size: 50px
+    font-size: 40px
   }
   
   img {
