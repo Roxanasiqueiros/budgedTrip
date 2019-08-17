@@ -12,6 +12,12 @@ $(document).ready(function(){
       });
 });
 
+
+//weather API key 
+const GAPI_KEY= "5513911c6b3c270d32dbc2f560f613fb"
+
+
+
 	//rotate those testimonials
   var arr = ["testimonial0", "testimonial1", "testimonial2", "testimonial3", "testimonial4"],
 	i = Math.floor(Math.random() * arr.length)+1;

@@ -3,6 +3,14 @@ const GAPI_KEY = "wnPHFfAUjeylUG0GBPOAv0vHbBSdXRPT";
 
 $(document).ready(function () {
     L.mapquest.key = GAPI_KEY
+    placeSearch({
+      key: GAPI_KEY,
+      container: document.querySelector('#to')
+    });
+    placeSearch({
+      key: GAPI_KEY,
+      container: document.querySelector('#from')
+    });
     let userLoc;
     // navigator.geolocation.getCurrentPosition((loc) => userLoc = loc);
 

@@ -2,8 +2,11 @@
     width: 100%;
 }
 .jumbotron {
-    background: #000;
+    background: #55688A;
     padding: 50px 0;
+}
+.nav-item{
+	padding: 0 5px;
 }
 .display {
     color: #fff;
@@ -24,9 +27,16 @@
 }
 .bottom-wrap {
     padding: 50px 0;
-    font   
+	background: #6d80a0;
 }
 
+.founders {
+	color:#fff;
+}
+
+.name {
+	color: #fff;
+}
 .testimonials {
 	min-height: 300px;
 }
@@ -34,6 +44,17 @@
 	margin: 20px auto;
 	color: #eee;
 	text-transform: uppercase;
+}
+
+.col-md-4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.col-md-4 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-display: underline;
 }
 .testimonials img,
 .testimonials .profile {
@@ -85,4 +106,25 @@
 	border-width: 10px;
 	border-top: 20px solid #596676;
 	border-right: 20px solid transparent;
+
+}
+
+.openweathermap-widget-13{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.team {
+	list-style: none;
+	padding: 0;
+}
+
+.team li {
+	margin: 0 auto 10px;
+}
+.profile-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
 }

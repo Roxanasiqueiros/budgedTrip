@@ -1,0 +1,79 @@
+.slide-images {
+    height: 400px;
+    overflow: hidden;
+}
+.slide-images img {
+    width: 100%;
+}
+
+.activities {
+    text-align: center;
+    height: 30px;
+}
+
+  /* css for zig-zag */
+  * {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.sf-container {
+  padding: 64px;
+}
+
+.checked {
+  color: orange;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 36px;
+  }
+  
+  .xlarge-font {
+    font-size: 50px
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  } 
+/* css for weather
+#openweathermap-widget-13{
+  position: absolute;
+  top:0;
+  right: 0;
+} */
