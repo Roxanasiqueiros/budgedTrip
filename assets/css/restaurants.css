@@ -26,7 +26,8 @@ background-repeat: no-repeat;
 background-position: center; 
 background-size: cover;
 margin-bottom: 0%;
-
+overflow-x: hidden;
+overflow-y: scroll;
 }
 .tab{
 /*background-image: url(https://cdn.pixabay.com/photo/2016/11/10/19/20/banner-1814989__340.jpg);*/   
@@ -70,4 +71,33 @@ font-weight: 900;
     color: black;
     font-family: 'Libre Caslon Text', serif;
     font-size: 30px;
+}
+footer{
+    background: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/277157/600/400/m2/fpnw/wm1/pattern-with-travel-symbols-on-blue-.jpg?1418934330&s=70d12cf9e99b6b557e0e787eefa4423d);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    border-top: 5px double whitesmoke;
+  }
+
+  
+  #openweathermap-widget-13{
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+  
+.team{
+  font-family: 'Acme', sans-serif;
+color: #000;
+font-size: 20px;
+  
+
+}
+#template-current-year{
+  color: #000;
+}
+
+.main-footer__copyright-link{
+  color: black;
 }
