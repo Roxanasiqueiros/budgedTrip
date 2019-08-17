@@ -67,6 +67,10 @@ font-weight: 900;
 .footer {
     text-align: center;
 }
+
+.h6{
+    color: black;
+}
 .restaurants{
     color: black;
     font-family: 'Libre Caslon Text', serif;
