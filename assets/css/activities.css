@@ -24,6 +24,7 @@
 .sf-container, 
 .tahoe-container,
 .la-container {
+<<<<<<< HEAD
   font-family: 'Libre Baskerville', serif; 
   text-align:center; 
   color: black;
@@ -31,6 +32,9 @@
   background-color: whitesmoke;
   margin: auto;
 
+=======
+  padding: 64px;
+>>>>>>> eef5f5ddc33284061bb84f37e7ea949430e6968e
 }
 
 .checked {
